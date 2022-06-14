@@ -1,0 +1,13 @@
+body {
+    background-color: #FFD4AD;
+    font-size: 130%;
+}
+
+h2 {
+    color: #DA6047;
+  }
+
+p.center{
+    text-align: center;
+    color: red;
+}
