@@ -28,11 +28,11 @@ a:link, a:visited{
   a#img{
     width: 300px;
     height: 300px;
-    padding: 0;
-    border:0;
-    margin:0px;
+    padding: 0px;
+    border: 0px;
+    margin: 30% 0% 0% 30%;
+    background-color: #FFFFFF;
   }
-
 
  div#imagen{
     width: 70%;
@@ -61,11 +61,14 @@ table{
     text-align: center;
     margin: 0 auto;
     border-collapse: collapse;
+    margin-top: 25%;
 }
 
 footer{
     text-align: center;
     color: #E040FB;
-    background-color: black;
+    background-color: #212121;
 }
+
+
 
