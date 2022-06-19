@@ -1,23 +1,22 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*{/*por cada elemento en el documento html has lo siguiente*/
+  box-sizing: border-box;  /*border-box sirve para hacer que la caja tengan el tamaño deseado incluyendo el borde*/ /*no se hereda*/
+  margin:0;
 }
 body {
     background-color: gray;
   }
 
-  #box {
+  #box{
     background-color: red;
-    padding: 10px;
-    border: 5px solid #fff9aa;
+    padding: 10px 30px 10px 20px; /*arriba derecha abajo izquierda*/
+    /*border: 5px solid #fff9aa;*/
     width: 300px;
     height: 50px;
-    margin-top: 50px;
     overflow: auto;
+    margin-top: 50px; /*verticalmente los margenes no se suman y horizontalmente si se suman y se toma el mayor*/
   }
   #content {
-    background-color: #90ee90; /*green*/
+    background-color: #F96440; /*green*/
   }
 
   h1 {

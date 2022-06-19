@@ -1,0 +1,63 @@
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+* {
+  /*por cada elemento en el documento html has lo siguiente*/
+  box-sizing: border-box; /*border-box sirve para hacer que la caja tengan el tamaño deseado incluyendo el borde*/ /*no se hereda*/
+  margin: 0;
+}
+
+#box {
+  background-color: red;
+  padding: 10px 30px 10px 20px; /*arriba derecha abajo izquierda*/
+  /*border: 5px solid #fff9aa;*/
+  width: 300px;
+  height: 50px;
+  overflow: auto;
+  margin-top: 50px; /*verticalmente los margenes no se suman y horizontalmente si se suman y se toma el mayor*/
+}
+#contenido {
+  background-color: #f96440; /*green*/
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
